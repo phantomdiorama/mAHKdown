@@ -1,15 +1,20 @@
-##mAHKdown
+## mAHKdown
 
-A quick markdown previewer using Fletcher Penney's [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)
+A quick markdown previewer using [pandoc](http://pandoc.org/)
 
+### Requirements
+* [pandoc](https://github.com/jgm/pandoc/releases/latest)
+* [AutoHotKey](https://autohotkey.com/download/)
 
-###Usage
-Drag and drop markdown files onto **mAHKdown.ahk** and a preview will open in default browser.
+### Usage
+Drag and drop markdown files onto **mAHKdown.ahk** and a preview will open in default browser. Delete out.html from desktop afterwards if you want.
 
-List of support file types [here](http://fletcherpenney.net/multimarkdown/use/)
+### Similar Tools
+The same could be achieved with a batch file and pandoc, or MultiMarkdown, or HastyScribe etc. This was just a excerise in learning AutoHotKey scripting.
 
-**If MultiMarkdown not installed**
+### Tested On
+Windows 7 32bit and AutoHotKey 1.1.22.07
 
-Downlod portable version from [here](https://github.com/fletcher/MultiMarkdown-5/releases) (or run download.ahk) and extract multimarkdown.exe to mAHKdown root folder
-
+#### Switch to pandoc
+Development switched to pandoc for no other reason than it is what I now use. However [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) remains an excellent tool.
 
