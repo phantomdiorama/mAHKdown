@@ -9,6 +9,5 @@ Loop %0%
     Loop %GivenPath%, 1
         LongPath = %A_LoopFileLongPath%
     MsgBox Rendering %LongPath%
-    RunWait, %comspec% /c pandoc -s "%LongPath%" -o %A_Desktop%/out.html,, Hide
-    Run, %A_Desktop%/out.html
+    RunWait, %comspec% /c pandoc -s `"%LongPath%`" -o %A_Desktop%/out.docx,, Hide
 }

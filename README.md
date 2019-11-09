@@ -1,13 +1,13 @@
 ## mAHKdown
 
-A quick markdown previewer using [pandoc](http://pandoc.org/)
+A quick markdown script using [pandoc](http://pandoc.org/) and [AutoHotKey](https://autohotkey.com/download/)
 
 ### Requirements
 * [pandoc](https://github.com/jgm/pandoc/releases/latest)
 * [AutoHotKey](https://autohotkey.com/download/)
 
 ### Usage
-Drag and drop markdown files onto **mAHKdown.ahk** and a preview will open in default browser. Delete out.html from desktop afterwards if you want.
+Drag and drop markdown files onto **mAHKdown.ahk** and it will spit out a **.docx** to your desktop.
 
 ### Similar Tools
 The same could be achieved with a batch file and pandoc, or MultiMarkdown, or HastyScribe etc. This was just a excerise in learning AutoHotKey scripting.
